@@ -1,6 +1,7 @@
 package com.devsuperior.dspesquisa.entities;
 
 import com.devsuperior.dspesquisa.entities.enums.Platform;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
 import java.io.Serializable;
