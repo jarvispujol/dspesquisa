@@ -31,7 +31,7 @@ public class RecordController {
             @RequestParam(value = "min", defaultValue = "") String minDt,
             @RequestParam(value = "max", defaultValue = "") String maxDt,
             @RequestParam(value = "page", defaultValue = "0") Integer page,
-            @RequestParam(value = "linesPerPage", defaultValue = "12") Integer linesPerPage,
+            @RequestParam(value = "linesPerPage", defaultValue = "0") Integer linesPerPage,
             @RequestParam(value = "orderBy", defaultValue = "moment") String orderBy,
             @RequestParam(value = "direction", defaultValue = "DESC") String direction) {
 
